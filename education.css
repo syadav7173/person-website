@@ -1,0 +1,72 @@
+.education-heading{
+    margin-left: 95px;
+    margin-top: 95px;
+    font-size: 38px;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+}
+.schools-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.title-1{
+    font-size: 30px;
+
+}
+
+.title-2{
+    font-size: 30px;
+}
+
+.northeastern-container{
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shaker-container{
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.year-1,
+.year-2{
+    font-size: 24px;
+    color: rgb(167, 123, 90);
+    margin-top: 4px;
+}
+
+.northeastern-desc,
+.shaker-desc{
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: rgba(167, 123, 90, 0.3);
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border-radius: 17px;
+    transition: 0.7s;
+}
+
+
+.ndesc-3{
+    margin-top: 7px;
+    font-weight: 800;
+}
+
+.northeastern-desc:hover,
+.shaker-desc:hover{
+    background-color: rgba(167, 123, 90, 0.6);
+}

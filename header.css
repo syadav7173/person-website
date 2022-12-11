@@ -1,0 +1,37 @@
+.header{
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 1;
+    transform: translateY(-3rem);
+    animation: fadeInUp 2s ease 7.0s forwards;
+}
+
+@keyframes fadeInUp{
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 370px;
+    justify-content: space-between;
+    font-size: 11.5px;
+    
+}
+
+.education, .home, .projects, .contact-me, .resume{
+    transition: color 0.4s;
+}
+.education:hover, .home:hover, .projects:hover, .contact-me:hover, .resume:hover{
+    color: rgb(210, 180, 140);
+    cursor: pointer;
+}
+
