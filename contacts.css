@@ -1,4 +1,4 @@
-.contact-resume-container{
+.contact-resume-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -8,40 +8,67 @@
     color: black;
 }
 
-.resume-container{
+.resume-container {
     width: 100%;
     transition: hover 0.3s;
-    }
-    
-.resume-picture{
-    width: 100%;
-    min-width: 275px;
+}
+
+.resume-picture {
+    min-width: 475px;
     box-shadow:
-    0 1px 1px hsl(0deg 0% 0% / 0.075),
-    0 2px 2px hsl(0deg 0% 0% / 0.075),
-    0 4px 4px hsl(0deg 0% 0% / 0.075),
-    0 8px 8px hsl(0deg 0% 0% / 0.075),
-    0 16px 16px hsl(0deg 0% 0% / 0.075);
+        0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075),
+        0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075),
+        0 16px 16px hsl(0deg 0% 0% / 0.075);
     transition: hover 0.3s;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .resume-picture {
+        min-width: 375px;
+        box-shadow:
+            0 1px 1px hsl(0deg 0% 0% / 0.075),
+            0 2px 2px hsl(0deg 0% 0% / 0.075),
+            0 4px 4px hsl(0deg 0% 0% / 0.075),
+            0 8px 8px hsl(0deg 0% 0% / 0.075),
+            0 16px 16px hsl(0deg 0% 0% / 0.075);
+        transition: hover 0.3s;
     }
+}
+
+@media only screen and (max-width: 1000px) {
+    .resume-picture {
+        min-width: 275px;
+        box-shadow:
+            0 1px 1px hsl(0deg 0% 0% / 0.075),
+            0 2px 2px hsl(0deg 0% 0% / 0.075),
+            0 4px 4px hsl(0deg 0% 0% / 0.075),
+            0 8px 8px hsl(0deg 0% 0% / 0.075),
+            0 16px 16px hsl(0deg 0% 0% / 0.075);
+        transition: hover 0.3s;
+    }
+}
+
 
 .resume-picture:hover {
-        width: 100%;
-        box-shadow: 0 20px 20px hsl(0deg 0% 0% / 0.075);
-        }
+    width: 100%;
+    box-shadow: 0 20px 20px hsl(0deg 0% 0% / 0.075);
+}
 
-.arrow{
+.arrow {
     width: 70px;
     margin-left: 15px;
     margin-bottom: 60%;
 }
 
-.arrow-container{
+.arrow-container {
     display: flex;
     flex-direction: column;
 }
 
-.arrow-desc{
+.arrow-desc {
     margin-left: 60px;
     margin-bottom: 7px;
     font-size: 26px;
@@ -49,38 +76,38 @@
     white-space: nowrap;
 }
 
-.email{
+.email {
     white-space: nowrap;
     font-size: 22px;
 }
 
-.linkedin-link{
+.linkedin-link {
     text-decoration: underline;
     font-size: 22px;
     color: black;
 }
 
-.phone-number{
+.phone-number {
     font-size: 22px;
 }
 
-.linkedin-text{
+.linkedin-text {
     color: black;
     transition: color 0.5s;
 }
 
 .linkedin-text:hover,
-.linkedin-url:hover{
+.linkedin-url:hover {
     color: rgb(167, 123, 90);
     transition: color 0.3s;
 }
 
-a:hover{
+a:hover {
     transition: color 0.3s;
 }
 
 
-.contact-container{
+.contact-container {
     width: 100%;
     margin-right: 5%;
     margin-left: 5%;
@@ -92,7 +119,6 @@ a:hover{
     font-size: 24px;
 }
 
-a:hover{
+a:hover {
     color: rgb(167, 123, 90);
 }
-
