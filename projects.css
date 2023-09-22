@@ -295,7 +295,19 @@ margin-bottom: 15px;
 
 .used-lan-1{
   position: relative;
-  bottom: 55px;
+  bottom: 45px;
+  margin-left: 0px;
+}
+
+.used-lan-5{
+  position: relative;
+  bottom: 65px;
+  margin-left: 0px;
+}
+
+.used-lan-4{
+  position: relative;
+  bottom: 125px;
   margin-left: 0px;
 }
 
@@ -309,6 +321,12 @@ margin-bottom: 15px;
 
 .used-lan-2{
 position: relative;
-bottom: 25px;
+bottom: 90px;
 margin-left: 0px;
 }
+
+.used-lan-3{
+  position: relative;
+  bottom: 35px;
+  margin-left: 0px;
+  }
